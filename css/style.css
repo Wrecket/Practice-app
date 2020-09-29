@@ -48,7 +48,7 @@
 
 @keyframes MoveUpDown3 {
   0%, 100% {
-    left: 15.9%; }
+    left: 16.2%; }
   50% {
     bottom: 155px; } }
 
@@ -74,8 +74,8 @@
     width: 114px; }
   .amy__mouth {
     position: absolute;
-    width: 7.5%;
-    left: 15.9%;
+    width: 8.5%;
+    left: 16.2%;
     bottom: 165px;
     transition: all 3s !important; }
   .amy__bubble {

@@ -1,7 +1,6 @@
 {
   "name": "react-training",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compiler": "node-sass css/scss/style.scss css/style.css -w"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.14.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wrecket/amyfoodplanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wrecket/amyfoodplanner/issues"
+  },
+  "homepage": "https://github.com/Wrecket/amyfoodplanner#readme",
+  "description": ""
 }
