@@ -1,0 +1,124 @@
+.amy {
+    
+    &__box {
+    position: relative;
+    background-image: url("../img/fair.jpg");
+    background-size: contain;    
+    min-height: 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    }
+
+    &__amy {
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        width: 114px;
+    }
+    &__mouth {
+        position: absolute;
+        width: 2.8%;
+        left: 48.4%;
+        bottom: 163px;
+	    transition: all 3s !important;
+    }
+    &__bubble {
+        width: 400px;
+        position: absolute;
+        bottom: 155px;
+        left: 50%;
+        opacity: .8
+    }
+    &__speech {
+        height: 140px;
+        width: 230px;
+        position: absolute;
+        bottom: 190px;
+        left: 60%;
+
+    }
+}
+
+.animate {
+    animation: MoveUpDown4 .5s linear infinite !important;
+}
+
+.animate2 {
+    animation: MoveUpDown3 .5s linear infinite !important;
+}
+  
+  @keyframes MoveUpDown4 {
+	0%, 100% {
+	  left: 48.4%;
+	}
+	50% {
+	  bottom: 155px;
+	}
+  }
+
+  @keyframes MoveUpDown3 {
+	0%, 100% {
+	  left: 15.9%;
+	}
+	50% {
+	  bottom: 155px;
+	}
+  }
+
+  .mobile {
+    display: none;
+}
+
+  @media (max-width: 550px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .amy__box {
+        position: relative;
+        background-image: url("../img/fair.jpg");
+        background-size: contain;    
+        min-height: 300px !important;
+        background-repeat: no-repeat;
+        width: 100%;
+        }
+    
+        .amy__amy {
+            position: absolute;
+            left: 5%;
+            bottom: 0;
+            width: 114px;
+        }
+        .amy__mouth {
+            position: absolute;
+            width: 7.5%;
+            left: 15.9%;
+            bottom: 165px;
+            transition: all 3s !important;
+        }
+        .amy__bubble {
+            width: 250px;
+            position: absolute;
+            bottom: 165px;
+            left: 20%;
+            opacity: .8
+        }
+        .amy__speech {
+            height: 80px;
+            width: 180px;
+            position: absolute;
+            bottom: 190px;
+            left: 33%;
+            padding-top: 1% !important;
+            
+    
+        }
+        
+
+  }
