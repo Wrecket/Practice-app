@@ -132,6 +132,8 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
                     document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")'; 
                 }, 2000);
                 
@@ -140,42 +142,54 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")';
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")';
                 }, 2000);
                 break;
             case "bg4":
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")';
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")';
                 }, 2000);
                 break;
             case "bg5":
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ranch.jpg")';
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ranch.jpg")';
                 }, 2000);
                 break;
             case "bg6":
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/jfk.jpg")';
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/jfk.jpg")';
                 }, 2000);
                 break;
             case "bg7":
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/war.jpg")';
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/war.jpg")';
                 }, 2000);
                 break;
             case "bg8":
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/rainbow.jpg")';
+                    document.querySelector(".input").classList.remove("hidden");
+                    document.querySelector(".random").classList.add("hidden");
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/rainbow.jpg")';
                 }, 2000);
                 break;
         }
