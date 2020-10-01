@@ -11,6 +11,7 @@
         left: 20%;
         bottom: 0;
         width: 114px;
+        transition: all 3s !important;
     }
     &__mouth {
         position: absolute;
@@ -54,6 +55,7 @@
     background-repeat: no-repeat;
     width: 950px;
     left: -100px;
+    overflow: hidden;
 }
 
 .animate {
@@ -63,7 +65,7 @@
 .animate2 {
     animation: MoveUpDown3 .5s linear infinite !important;
 }
-  
+
   @keyframes MoveUpDown4 {
 	0%, 100% {
 	  left: 23.4%;

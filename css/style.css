@@ -5,7 +5,8 @@
   position: absolute;
   left: 20%;
   bottom: 0;
-  width: 114px; }
+  width: 114px;
+  transition: all 3s !important; }
 
 .amy__mouth {
   position: absolute;
@@ -44,7 +45,8 @@
   background-position: bottom;
   background-repeat: no-repeat;
   width: 950px;
-  left: -100px; }
+  left: -100px;
+  overflow: hidden; }
 
 .animate {
   animation: MoveUpDown4 .5s linear infinite !important; }
