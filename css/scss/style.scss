@@ -1,4 +1,5 @@
 @import "components/amy.scss";
+@import "components/input.scss";
 
 .padder {
     height: 50px;
@@ -15,3 +16,78 @@
 .orange {
     color: orange;
 } 
+
+body {
+    background-size: cover;
+    position: relative;
+}
+
+.amywhole {
+    position: absolute;
+}
+
+.tv {
+    width: 850px;
+    position: absolute;
+    left: 8%; 
+    bottom: -85px;
+    z-index: 100;
+}
+
+.click-sort-desktop {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 165px;;
+}
+
+.tv-button {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    z-index: 200;
+}
+
+.bg1 {
+    left:66.5%;
+    bottom: 377px
+}
+
+.bg2 {
+    left:68.4%;
+    bottom: 377px
+}
+.bg3 {
+    left: 70.3%;
+    bottom: 377px
+}
+.bg4 {
+    left:72%;
+    bottom: 377px
+}
+.bg5 {
+    left:74%;
+    bottom: 377px
+}
+.bg6 {
+    left:76%;
+    bottom: 377px
+}
+.bg7 {
+    left:78%;
+    bottom: 377px
+}
+.bg8 {
+    left:80%;
+    bottom: 377px
+}
+
+@media (max-width: 550px) {
+    .tv {
+        width: 300px;
+        position: absolute;
+        left: 0; 
+        bottom: -20px;
+        z-index: 100;
+    }
+}

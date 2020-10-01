@@ -1,43 +1,59 @@
 .amy {
     
+    
     &__box {
     position: relative;
-    background-image: url("../img/fair.jpg");
-    background-size: contain;    
-    min-height: 500px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    width: 100%;
+    
     }
 
     &__amy {
         position: absolute;
-        left: 45%;
+        left: 20%;
         bottom: 0;
         width: 114px;
     }
     &__mouth {
         position: absolute;
         width: 2.8%;
-        left: 48.4%;
+        left: 23.4%;
         bottom: 163px;
-	    transition: all 3s !important;
+        transition: all 3s !important;
     }
     &__bubble {
         width: 400px;
         position: absolute;
         bottom: 155px;
-        left: 50%;
-        opacity: .8
+        left: 25%;
+        opacity: 0;
+        transition: all 3s !important;
+        z-index: 105;
     }
     &__speech {
         height: 140px;
         width: 230px;
         position: absolute;
         bottom: 190px;
-        left: 60%;
+        left: 35%;
+        z-index: 105;
 
     }
+}
+
+.littleAmy {
+  opacity: 0;
+  transition: 2s all;
+  z-index: 999;
+}
+
+.backgroundcontainer {
+    transition: 5s all;
+    background-image: url("../img/static2.gif");
+    background-size: contain;    
+    min-height: 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 900px;
+    left: -100px;
 }
 
 .animate {
@@ -50,7 +66,7 @@
   
   @keyframes MoveUpDown4 {
 	0%, 100% {
-	  left: 48.4%;
+	  left: 23.4%;
 	}
 	50% {
 	  bottom: 155px;
@@ -82,11 +98,15 @@
 
     .amy__box {
         position: relative;
-        background-image: url("../img/fair.jpg");
+        }
+
+        .backgroundcontainer {
         background-size: contain;    
         min-height: 300px !important;
         background-repeat: no-repeat;
-        width: 100%;
+        width: 250px;
+        margin: 0;
+        padding: 0;
         }
     
         .amy__amy {

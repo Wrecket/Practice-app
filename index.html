@@ -8,32 +8,88 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="desktop">
     <section class="header">
         <div class="container text-center mt-5">
-            <h1 class="header__title">Dinnah Selektah</h1>
+            <h1 class="header__title"></h1>
         </div>
     </section>
     <div class="padder"></div>
-    <section class="amy">
-        <div class="container text-center amy__box">
-            <img src="img/amy.png" alt="" class="amy__amy">
-            <img src="img/mouth.png" alt="" class="amy__mouth">
-            <img src="img/bubble.png" alt="" class="hidden amy__bubble">
-            <div class="amy__speech bold pt-3">
+    <div class="padder"></div>
+    <div class="padder"></div>
 
-            </div>
-        </div>
-    </section>
-    <div class="button container mt-5 text-center">
-        <div class="button__pickmeal">
-            <button class="button__click-desktop  desktop">Meal Generator</button>
-            <button class="button__click-mobile  mobile">Meal Generator</button>
-        </div>
-        <p class="button__meal">
+
+        <section class="amy">
+            <div class="container text-center amy__box">
+                <div class="backgroundcontainer">
+                <img src="img/tv.png" alt="tv frame" class="tv">
+                <div id="bg1" class="bg1 tv-button"></div>
+                <div id="bg2" class="bg2 tv-button"></div>
+                <div id="bg3" class="bg3 tv-button"></div>
+                <div id="bg4" class="bg4 tv-button"></div>
+                <div id="bg5" class="bg5 tv-button"></div>
+                <div id="bg6" class="bg6 tv-button"></div>
+                <div id="bg7" class="bg7 tv-button"></div>
+                <div id="bg8" class="bg8 tv-button"></div>
+                <!--  -->
+                <div class="input">
+                    <div class="input__box">
+                        <div class="input__flexbox pt-3">
+                           <p class="input__help">Contents:</p>   
+                           <ul class="input__help">
+                               <li class="input__helplist">Channel 1: Random selector</li>
+                               <li class="input__helplist">Channel 2: tbc</li>
+                               <li class="input__helplist">Channel 3: tbc</li>
+                               <li class="input__helplist">Channel 4: tbc</li>
+                               <li class="input__helplist">Channel 5: tbc</li>
+                               <li class="input__helplist">Channel 6: tbc</li>
+                               <li class="input__helplist">Channel 7: tbc</li>
+                               <li class="input__helplist">Channel 8: tbc</li>
+                           </ul>   
+                        </div>
+                    
+                    </div>
+                </div>
+                <!--  -->
+                <div class="input random hidden">
+                    <div class="input__box">
+                        <div class="input__flexbox">
+                            <div class="d-flex">
+                                <input type="text" class="input__1" placeholder="first choice"><br>
+                                <button class="input__click-desktop btn-secondary desktop">Add</button>
+                                <button class="input__click-mobile  mobile">Add</button>
+                            </div>   
+                            <ul class="input__choices pl-1">
+            
+                            </ul>        
+                        </div>
+                    
+                    </div>
                 
-        </p>
-    </div>
-    
+                    <button class="click-sort-desktop btn btn-secondary  desktop">Random Pick</button>
+                    <button class="click-sort-mobile  mobile">Random Pick</button>
+                </div>
+                <!--  -->
+                <div class="littleAmy"> 
+                <img src="img/amy.png" alt="" class="amy__amy">
+                <img src="img/mouth.png" alt="" class="amy__mouth">
+                <img src="img/bubble.png" alt="" class="amy__bubble">
+                <div class="amy__speech bold pt-3">
+
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="padder"></div>
+        <div class="padder"></div>
+
+    </div class="container text-center"> 
+    <div class="padder"></div>
+    <div class="padder"></div>
+    <div class="padder"></div>
+    <div class="padder"></div>
+    <h1 class="text-center p-3">This app is currently optimised for desktop only.</h1>  
 </body>
 <foot class="footer">
     <script src="index.js"></script>

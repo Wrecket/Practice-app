@@ -1,22 +1,16 @@
 .amy__box {
-  position: relative;
-  background-image: url("../img/fair.jpg");
-  background-size: contain;
-  min-height: 500px;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  width: 100%; }
+  position: relative; }
 
 .amy__amy {
   position: absolute;
-  left: 45%;
+  left: 20%;
   bottom: 0;
   width: 114px; }
 
 .amy__mouth {
   position: absolute;
   width: 2.8%;
-  left: 48.4%;
+  left: 23.4%;
   bottom: 163px;
   transition: all 3s !important; }
 
@@ -24,15 +18,33 @@
   width: 400px;
   position: absolute;
   bottom: 155px;
-  left: 50%;
-  opacity: .8; }
+  left: 25%;
+  opacity: 0;
+  transition: all 3s !important;
+  z-index: 105; }
 
 .amy__speech {
   height: 140px;
   width: 230px;
   position: absolute;
   bottom: 190px;
-  left: 60%; }
+  left: 35%;
+  z-index: 105; }
+
+.littleAmy {
+  opacity: 0;
+  transition: 2s all;
+  z-index: 999; }
+
+.backgroundcontainer {
+  transition: 5s all;
+  background-image: url("../img/static2.gif");
+  background-size: contain;
+  min-height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 900px;
+  left: -100px; }
 
 .animate {
   animation: MoveUpDown4 .5s linear infinite !important; }
@@ -42,7 +54,7 @@
 
 @keyframes MoveUpDown4 {
   0%, 100% {
-    left: 48.4%; }
+    left: 23.4%; }
   50% {
     bottom: 155px; } }
 
@@ -61,12 +73,14 @@
   .mobile {
     display: inline; }
   .amy__box {
-    position: relative;
-    background-image: url("../img/fair.jpg");
+    position: relative; }
+  .backgroundcontainer {
     background-size: contain;
     min-height: 300px !important;
     background-repeat: no-repeat;
-    width: 100%; }
+    width: 250px;
+    margin: 0;
+    padding: 0; }
   .amy__amy {
     position: absolute;
     left: 5%;
@@ -92,6 +106,31 @@
     left: 33%;
     padding-top: 1% !important; } }
 
+.input {
+  position: absolute;
+  left: 65.7%;
+  bottom: 30px;
+  z-index: 107; }
+  .input__box {
+    background-color: white;
+    width: 177px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.521); }
+  .input__flexbox {
+    justify-content: space-between;
+    color: white; }
+  .input__1 {
+    width: 135px; }
+  .input__choices {
+    list-style-type: none; }
+  .input__help {
+    font-size: .7rem;
+    list-style-type: none;
+    padding-left: 0 !important; }
+  .input__helplist {
+    font-size: .7rem; }
+
 .padder {
   height: 50px; }
 
@@ -103,3 +142,69 @@
 
 .orange {
   color: orange; }
+
+body {
+  background-size: cover;
+  position: relative; }
+
+.amywhole {
+  position: absolute; }
+
+.tv {
+  width: 850px;
+  position: absolute;
+  left: 8%;
+  bottom: -85px;
+  z-index: 100; }
+
+.click-sort-desktop {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 165px; }
+
+.tv-button {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  z-index: 200; }
+
+.bg1 {
+  left: 66.5%;
+  bottom: 377px; }
+
+.bg2 {
+  left: 68.4%;
+  bottom: 377px; }
+
+.bg3 {
+  left: 70.3%;
+  bottom: 377px; }
+
+.bg4 {
+  left: 72%;
+  bottom: 377px; }
+
+.bg5 {
+  left: 74%;
+  bottom: 377px; }
+
+.bg6 {
+  left: 76%;
+  bottom: 377px; }
+
+.bg7 {
+  left: 78%;
+  bottom: 377px; }
+
+.bg8 {
+  left: 80%;
+  bottom: 377px; }
+
+@media (max-width: 550px) {
+  .tv {
+    width: 300px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    z-index: 100; } }
