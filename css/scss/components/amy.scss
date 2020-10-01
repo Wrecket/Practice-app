@@ -25,7 +25,7 @@
         bottom: 155px;
         left: 25%;
         opacity: 0;
-        transition: all 3s !important;
+        transition: all .5s !important;
         z-index: 105;
     }
     &__speech {
@@ -41,18 +41,18 @@
 
 .littleAmy {
   opacity: 0;
-  transition: 2s all;
+  transition: .5s all;
   z-index: 999;
 }
 
 .backgroundcontainer {
-    transition: 5s all;
+    transition: .5s all;
     background-image: url("../img/static2.gif");
     background-size: contain;    
     min-height: 500px;
     background-position: bottom;
     background-repeat: no-repeat;
-    width: 1000px;
+    width: 950px;
     left: -100px;
 }
 
@@ -69,7 +69,7 @@
 	  left: 23.4%;
 	}
 	50% {
-	  bottom: 155px;
+	  bottom: 161px;
 	}
   }
 

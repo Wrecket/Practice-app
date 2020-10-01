@@ -101,7 +101,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 document.querySelector(".littleAmy").style.opacity = "0";
                 document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/static2.gif")';
                 setTimeout(() => {
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ranch.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/tongue.gif")';
                     setTimeout(() => {
                         document.querySelector(".input").classList.add("hidden");
                         setTimeout(() => {
@@ -134,7 +134,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")'; 
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/Catfish.gif")'; 
                 }, 2000);
                 
                 break;
@@ -144,7 +144,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/dog.gif")';
                 }, 2000);
                 break;
             case "bg4":
@@ -153,7 +153,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ship.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/monkey.gif")';
                 }, 2000);
                 break;
             case "bg5":
@@ -162,7 +162,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/ranch.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/car.gif")';
                 }, 2000);
                 break;
             case "bg6":
@@ -171,7 +171,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/jfk.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/globe.gif")';
                 }, 2000);
                 break;
             case "bg7":
@@ -180,7 +180,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/war.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/train.gif")';
                 }, 2000);
                 break;
             case "bg8":
@@ -189,7 +189,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/rainbow.jpg")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/lips.gif")';
                 }, 2000);
                 break;
         }
