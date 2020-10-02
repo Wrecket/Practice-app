@@ -1,3 +1,10 @@
+const button = document.querySelector(".click-sort-desktop");
+const button2 = document.querySelector(".click-sort-mobile");
+const bubble = document.querySelector(".amy__bubble");
+const mouth = document.querySelector(".amy__mouth");
+const input = document.querySelector(".input__1");
+const add = document.querySelector(".input__click-desktop");
+
 choiceList = []
 
 function randomSelector () {
@@ -6,19 +13,18 @@ function randomSelector () {
     return randoSelect;
 }
 
-const button = document.querySelector(".click-sort-desktop");
-const button2 = document.querySelector(".click-sort-mobile");
-const bubble = document.querySelector(".amy__bubble");
-const mouth = document.querySelector(".amy__mouth");
-const input = document.querySelector(".input__1");
-const add = document.querySelector(".input__click-desktop");
+function hideToggle(name) {
+   name.classList.toggle("hidden"); 
+}
+
+
 
 button.addEventListener("click", function() {
     if (choiceList.length >= 2) {
-        bubble.classList.add("hidden");
+        hideToggle(bubble);
     document.querySelector(".amy__speech").innerHTML = " ";
     setTimeout(() => {
-        mouth.classList.add("animate");
+        mouth.classList.add("animate1");
         setTimeout(() => {
             bubble.classList.remove("hidden");
             setTimeout(() => {
@@ -28,7 +34,7 @@ button.addEventListener("click", function() {
                     setTimeout(() => {
                         document.querySelector(".amy__speech").innerHTML = `Your random selection is: <span class="bold orange"> ${randomSelector()}</span>.`;
                         setTimeout(() => {
-                            mouth.classList.remove("animate");
+                            mouth.classList.remove("animate1");
                         }, 2000);
                     }, 2000);
                 }, 2000);
