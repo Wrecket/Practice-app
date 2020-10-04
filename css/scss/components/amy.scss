@@ -58,7 +58,7 @@
     overflow: hidden;
 }
 
-.animate1 {
+.animate {
     animation: MoveUpDown4 .5s linear infinite !important;
 }
 
@@ -144,3 +144,21 @@
         
 
   }
+
+  @media (max-width: 1024px) {
+      .amy__mouth {
+        position: absolute;
+        width: 2.9%;
+        left: 24.3%;
+        bottom: 163px;
+        transition: all 3s !important;
+    }
+    @keyframes MoveUpDown4 {
+      0%, 100% {
+        left: 24.3%;
+      }
+      50% {
+        bottom: 160px;
+      }
+      }
+}

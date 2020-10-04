@@ -24,7 +24,7 @@ button.addEventListener("click", function() {
         hideToggle(bubble);
     document.querySelector(".amy__speech").innerHTML = " ";
     setTimeout(() => {
-        mouth.classList.add("animate1");
+        mouth.classList.add("animate");
         setTimeout(() => {
             bubble.classList.remove("hidden");
             setTimeout(() => {
@@ -34,7 +34,7 @@ button.addEventListener("click", function() {
                     setTimeout(() => {
                         document.querySelector(".amy__speech").innerHTML = `Your random selection is: <span class="bold orange"> ${randomSelector()}</span>.`;
                         setTimeout(() => {
-                            mouth.classList.remove("animate1");
+                            mouth.classList.remove("animate");
                         }, 2000);
                     }, 2000);
                 }, 2000);
@@ -177,7 +177,7 @@ document.querySelectorAll(".tv-button").forEach((item) => {
                 setTimeout(() => {
                     document.querySelector(".input").classList.remove("hidden");
                     document.querySelector(".random").classList.add("hidden");
-                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/globe.gif")';
+                    document.querySelector(".backgroundcontainer").style.backgroundImage = 'url("../img/storm.gif")';
                 }, 2000);
                 break;
             case "bg7":

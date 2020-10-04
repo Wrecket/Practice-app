@@ -21,6 +21,8 @@
 body {
     background-size: cover;
     position: relative;
+    background-color: black;
+    overflow: hidden;
 }
 
 .amywhole {
@@ -91,5 +93,41 @@ body {
         left: 0; 
         bottom: -20px;
         z-index: 100;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bg1 {
+        left:77.5%;
+        bottom: 377px
+    }
+    
+    .bg2 {
+        left: 79.7%;
+        bottom: 377px
+    }
+    .bg3 {
+        left: 82%;
+        bottom: 377px
+    }
+    .bg4 {
+        left:84.1%;
+        bottom: 377px
+    }
+    .bg5 {
+        left:86.2%;
+        bottom: 377px
+    }
+    .bg6 {
+        left:88.5%;
+        bottom: 377px
+    }
+    .bg7 {
+        left:91%;
+        bottom: 377px
+    }
+    .bg8 {
+        left:93%;
+        bottom: 377px
     }
 }
